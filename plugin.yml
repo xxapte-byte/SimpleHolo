@@ -1,0 +1,15 @@
+name: SimpleHolo
+version: '1.0.0'
+main: pl.simpleholo.SimpleHoloPlugin
+api-version: '1.21'
+description: Proste hologramy z placeholderami (topki)
+softdepend: [PlaceholderAPI]
+commands:
+  holo:
+    description: Zarzadzanie hologramami
+    usage: /holo help
+    aliases: [sholo]
+permissions:
+  simpleholo.admin:
+    description: Dostep do /holo
+    default: op

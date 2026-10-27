@@ -1,0 +1,5 @@
+# Co ile ticków odświeżać teksty (20 ticków = 1 sekunda). Minimum 5.
+refresh-ticks: 40
+
+# true = całkowicie przezroczyste tło, false = lekko ciemne tło jak w grze
+transparent-background: false
