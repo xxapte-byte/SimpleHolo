@@ -41,6 +41,16 @@
 
     <build>
         <finalName>SimpleHolo</finalName>
+        <sourceDirectory>${project.basedir}</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>${project.basedir}</directory>
+                <includes>
+                    <include>plugin.yml</include>
+                    <include>config.yml</include>
+                </includes>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -48,6 +58,9 @@
                 <version>3.13.0</version>
                 <configuration>
                     <release>21</release>
+                    <includes>
+                        <include>*.java</include>
+                    </includes>
                 </configuration>
             </plugin>
         </plugins>
